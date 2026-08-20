@@ -1,5 +1,7 @@
 # Homebrew tap for aictx
 
+Safe account switching for Claude Code and Codex.
+
 Install `aictx` with:
 
 ```bash
