@@ -1,5 +1,5 @@
 class Aictx < Formula
-  desc "Manage isolated Claude Code and Codex profiles"
+  desc "Safely switch and isolate Claude Code and Codex accounts"
   homepage "https://github.com/mikigraf/aictx"
   url "https://github.com/mikigraf/aictx/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "7008feeee0b0e5e80908eaeb219961064d0f06e2fa30fc1846fc4ffd178818b6"
