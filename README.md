@@ -1,18 +1,17 @@
-# Mikigraf Tap
+# Homebrew tap for aictx
 
-## How do I install these formulae?
+Install `aictx` with:
 
-`brew install mikigraf/tap/<formula>`
-
-Or `brew tap mikigraf/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "mikigraf/tap"
-brew "<formula>"
+```bash
+brew install mikigraf/tap/aictx
 ```
 
-## Documentation
+The formula builds the pinned release source with Homebrew's Rust toolchain.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+To install the current development branch instead:
+
+```bash
+brew install --HEAD mikigraf/tap/aictx
+```
+
+Project documentation: <https://github.com/mikigraf/aictx>
