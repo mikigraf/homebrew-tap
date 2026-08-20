@@ -7,6 +7,12 @@ class Aictx < Formula
 
   head "https://github.com/mikigraf/aictx.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/mikigraf/homebrew-tap/releases/download/aictx-0.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "a830f956b94797d387edb65f34e73a33b2d0a8119b0eadcff710db5df9822466"
+    sha256 cellar: :any,                 x86_64_linux: "877521427d057cb72be504033d9598ca5ae7ad641a4014dd1078a7d4c1b6cd87"
+  end
+
   depends_on "rust" => :build
 
   def install
