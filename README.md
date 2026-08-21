@@ -16,8 +16,16 @@ To install the current development branch instead:
 brew install --HEAD mikigraf/tap/ctxlane
 ```
 
-If you used `aictx` v0.1, follow the
+If Homebrew still has `aictx` v0.1 installed, rename and upgrade the package first:
+
+```bash
+brew update
+brew migrate ctxlane
+HOMEBREW_NO_INSTALL_CLEANUP=1 brew upgrade ctxlane
+```
+
+Then follow the
 [migration guide](https://github.com/mikigraf/ctxlane/blob/v0.2.0/docs/migration-from-v0.1.md)
-after upgrading. Homebrew maps the old formula name to `ctxlane`.
+to copy the local profile data. Homebrew maps the old formula name to `ctxlane`.
 
 Project documentation: <https://github.com/mikigraf/ctxlane>
