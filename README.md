@@ -1,6 +1,6 @@
 # Homebrew tap for ctxlane
 
-Safe account switching for Claude Code and Codex.
+`ctxlane` switches and isolates personal, work, and CI accounts for Claude Code and Codex.
 
 Install `ctxlane` with:
 

@@ -1,5 +1,5 @@
 class Ctxlane < Formula
-  desc "Switch between Claude Code and Codex accounts with isolated local state"
+  desc "Switch and isolate personal, work, and CI accounts for Claude Code and Codex"
   homepage "https://github.com/mikigraf/ctxlane"
   url "https://github.com/mikigraf/ctxlane/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "230c35f602c27a2195ea3f1f491ee0b99672b00938dcc8fb5858ec6d0146c22a"
