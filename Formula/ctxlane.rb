@@ -7,6 +7,12 @@ class Ctxlane < Formula
 
   head "https://github.com/mikigraf/ctxlane.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/mikigraf/homebrew-tap/releases/download/ctxlane-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "431117900e7843d2c9d5423b67a79f28cbcddf86057b4b7d6d3c4d46c5782221"
+    sha256 cellar: :any,                 x86_64_linux: "e4812f42b49f0de2a61a1f277a1a96a7d547f2b27e2cae40e2220da2c5344238"
+  end
+
   depends_on "rust" => :build
 
   def install
